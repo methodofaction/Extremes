@@ -20,6 +20,7 @@ I'm aware this is extremely limited in scope, but have you ever tried doing it i
 	$('.selector').extremes();
 
 **Let me configure to my liking**
+
 	$('.selector').extremes({
 		diameter: 200,
 		rotation: 90 //change the initial rotation of everything
