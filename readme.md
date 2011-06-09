@@ -1,6 +1,7 @@
 # Extremes - a jQuery plug-in to put lists around a circle
 
 * Author: Mark MacKay [http://duopixel.ca/](http://duopixel.ca)
+* Homepage: [http://duopixel.com/extremes](http://duopixel.com/extremes)
 * License: GPLv2/MIT
 * Meaning: Use anywhere you'd like. Credits appreciated, not required.
 
@@ -22,8 +23,7 @@ I'm aware this is extremely limited in scope, but have you ever tried doing it i
 **Let me configure to my liking**
 
 	$('.selector').extremes({
-		diameter: 200,
-		rotation: 90 //change the initial rotation of everything
+		diameter: 200
 	});
 	
 ## 3. Browser support

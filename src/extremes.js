@@ -6,6 +6,8 @@ $.fn.extremes = function(options) {
     var options = jQuery.extend(defaults, options);
     return this.each(function() {
       var diagram = $(this);
+      // Apply a rotation to offset awkward initial states
+      // 'this' is the selector
        diagram.css({
          position: "relative"
        });
@@ -75,9 +77,11 @@ $.fn.extremes = function(options) {
               })
           }
        });
-       diagram.css({
-         "width" : maxWidth * 3 + defaults.diameter || 100,
-         "height" : maxWidth * 3 + defaults.diameter || 100
-       });
+       if (diagram.height() < 50) {
+         diagram.css({
+           "width" : maxWidth * 2 + defaults.diameter || 100,
+           "height" : maxWidth * 2 + defaults.diameter || 100
+         });
+       }
   });
 };
