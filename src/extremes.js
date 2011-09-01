@@ -65,10 +65,10 @@ $.fn.extremes = function(options) {
                "-ms-transform-origin":     "50% 50%",
                "transform-origin":         "50% 50%",
                "-webkit-transform":        "rotate(180deg)",
-               "-moz-transform":           "rotate(" + degrees + "deg)",
-               "-o-transform":             "rotate(" + degrees + "deg)",
-               "-ms-transform":            "rotate(" + degrees + "deg)",
-               "transform":                "rotate(" + degrees + "deg)",
+               "-moz-transform":           "rotate(180deg)",
+               "-o-transform":             "rotate(180deg)",
+               "-ms-transform":            "rotate(180deg)",
+               "transform":                "rotate(180deg)",
                "position":                 "absolute"
             });
             $(this).parent().parent().css({
